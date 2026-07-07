@@ -29,7 +29,7 @@ services:
   redis:
     container_name: redis
     restart: unless-stopped
-    image: redis:7.0.5-alpine 
+    image: redis:7.4-alpine
     expose:
         - 6379
     depends_on:
